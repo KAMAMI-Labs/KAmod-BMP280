@@ -32,11 +32,6 @@ void setup() {
 
   pinMode(LED_PIN, OUTPUT);
   digitalWrite(LED_PIN, HIGH);
-
-  //Serial.println("ID of 0xFF probably means a bad address, a BMP 180 or BMP 085");
-  //Serial.println("ID of 0x56-0x58 represents a BMP 280");
-  //Serial.println("ID of 0x60 represents a BME 280");
-  //Serial.println("ID of 0x61 represents a BME 680");
   
   status = 0;
   while (status == 0){
